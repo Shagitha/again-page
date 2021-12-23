@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Command line suite</th></tr>
+<tr><td><a href="#t0">Command line test</a></td><td class="num">10</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">372,414</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">systaem.qa.tests.AdminTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1640168666345</td><td rowspan="1">98150</td></tr><tr><th colspan="4">Command line test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">systaem.qa.tests.PimPageTest</td><td><a href="#m1">verify_addedData</a></td><td rowspan="1">1640169026174</td><td rowspan="1">10484</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">systaem.qa.tests.AdminTest</td><td><a href="#m2">close</a></td><td rowspan="1">1640168764515</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">systaem.qa.tests.AdminTest</td><td><a href="#m3">test</a></td><td rowspan="1">1640168764513</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">systaem.qa.tests.DashboardTest</td><td><a href="#m4">check_secondQuote</a></td><td rowspan="1">1640168826252</td><td rowspan="1">1441</td></tr><tr class="passedeven"><td><a href="#m5">chekQuickLaunch</a></td><td rowspan="1">1640168858848</td><td rowspan="1">9445</td></tr><tr class="passedeven"><td><a href="#m6">clickAdmin</a></td><td rowspan="1">1640168888454</td><td rowspan="1">1647</td></tr><tr class="passedeven"><td><a href="#m7">clickPim</a></td><td rowspan="1">1640168904634</td><td rowspan="1">1303</td></tr><tr class="passedodd"><td rowspan="1">systaem.qa.tests.LoginPageTest</td><td><a href="#m8">test</a></td><td rowspan="1">1640168916790</td><td rowspan="1">3011</td></tr><tr class="passedeven"><td rowspan="5">systaem.qa.tests.PimPageTest</td><td><a href="#m9">add_Data</a></td><td rowspan="5">1640169006056</td><td rowspan="5">1627</td></tr><tr class="passedeven"><td><a href="#m10">add_Data</a></td></tr><tr class="passedeven"><td><a href="#m11">add_Data</a></td></tr><tr class="passedeven"><td><a href="#m12">add_Data</a></td></tr><tr class="passedeven"><td><a href="#m13">add_Data</a></td></tr></tbody>
+</table>
+<h2>Command line test</h2><h3 id="m0">systaem.qa.tests.AdminTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mathiyaparanams.local&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000103471519 __gxx_personality_v0 + 577193
+1   chromedriver                        0x00000001033fd663 __gxx_personality_v0 + 102387
+2   chromedriver                        0x0000000102fc4d28 chromedriver + 171304
+3   chromedriver                        0x0000000102fea42c chromedriver + 324652
+4   chromedriver                        0x0000000102fe6c42 chromedriver + 310338
+5   chromedriver                        0x0000000102fe35a6 chromedriver + 296358
+6   chromedriver                        0x000000010301ce4d chromedriver + 532045
+7   chromedriver                        0x0000000103016ba3 chromedriver + 506787
+8   chromedriver                        0x0000000102fed5ae chromedriver + 337326
+9   chromedriver                        0x0000000102fee8d5 chromedriver + 342229
+10  chromedriver                        0x000000010342d75f __gxx_personality_v0 + 299247
+11  chromedriver                        0x000000010344469a __gxx_personality_v0 + 393258
+12  chromedriver                        0x0000000103449f5b __gxx_personality_v0 + 415979
+13  chromedriver                        0x0000000103445a3a __gxx_personality_v0 + 398282
+14  chromedriver                        0x000000010342237c __gxx_personality_v0 + 253196
+15  chromedriver                        0x0000000103461458 __gxx_personality_v0 + 511464
+16  chromedriver                        0x00000001034615e1 __gxx_personality_v0 + 511857
+17  chromedriver                        0x0000000103478968 __gxx_personality_v0 + 606968
+18  libsystem_pthread.dylib             0x00007fff7716f661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff7716f50d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff7716ebf9 thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at system.qa.base.BasePage.initialization(BasePage.java:41)
+	at systaem.qa.tests.AdminTest.setUp(AdminTest.java:27)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">systaem.qa.tests.PimPageTest#verify_addedData</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//td/a[contains(text(),&apos;saji&apos;)])[1]&quot;}
+  (Session info: chrome=96.0.4664.110)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mathiyaparanams.local&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: /var/folders/f3/1p1p2c09213...}, goog:chromeOptions: {debuggerAddress: localhost:65482}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4373bd40118454114ec75464c9839b54
+*** Element info: {Using=xpath, value=(//td/a[contains(text(),&apos;saji&apos;)])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at system.qa.pages.PimPage.verifyAddedData(PimPage.java:55)
+	at systaem.qa.tests.PimPageTest.verify_addedData(PimPageTest.java:55)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">systaem.qa.tests.AdminTest#close</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">systaem.qa.tests.AdminTest#test</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn&apos;t exist
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;Mathiyaparanams.local&apos;, ip: &apos;192.168.0.11&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000103471519 __gxx_personality_v0 + 577193
+1   chromedriver                        0x00000001033fd663 __gxx_personality_v0 + 102387
+2   chromedriver                        0x0000000102fc4d28 chromedriver + 171304
+3   chromedriver                        0x0000000102fea42c chromedriver + 324652
+4   chromedriver                        0x0000000102fe6c42 chromedriver + 310338
+5   chromedriver                        0x0000000102fe35a6 chromedriver + 296358
+6   chromedriver                        0x000000010301ce4d chromedriver + 532045
+7   chromedriver                        0x0000000103016ba3 chromedriver + 506787
+8   chromedriver                        0x0000000102fed5ae chromedriver + 337326
+9   chromedriver                        0x0000000102fee8d5 chromedriver + 342229
+10  chromedriver                        0x000000010342d75f __gxx_personality_v0 + 299247
+11  chromedriver                        0x000000010344469a __gxx_personality_v0 + 393258
+12  chromedriver                        0x0000000103449f5b __gxx_personality_v0 + 415979
+13  chromedriver                        0x0000000103445a3a __gxx_personality_v0 + 398282
+14  chromedriver                        0x000000010342237c __gxx_personality_v0 + 253196
+15  chromedriver                        0x0000000103461458 __gxx_personality_v0 + 511464
+16  chromedriver                        0x00000001034615e1 __gxx_personality_v0 + 511857
+17  chromedriver                        0x0000000103478968 __gxx_personality_v0 + 606968
+18  libsystem_pthread.dylib             0x00007fff7716f661 _pthread_body + 340
+19  libsystem_pthread.dylib             0x00007fff7716f50d _pthread_body + 0
+20  libsystem_pthread.dylib             0x00007fff7716ebf9 thread_start + 13
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at system.qa.base.BasePage.initialization(BasePage.java:41)
+	at systaem.qa.tests.AdminTest.setUp(AdminTest.java:27)
+... Removed 42 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">systaem.qa.tests.DashboardTest#check_secondQuote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">systaem.qa.tests.DashboardTest#chekQuickLaunch</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">systaem.qa.tests.DashboardTest#clickAdmin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">systaem.qa.tests.DashboardTest#clickPim</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">systaem.qa.tests.LoginPageTest#test</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">systaem.qa.tests.PimPageTest#add_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>thusha</td><td>kha</td><td>nosi</td><td>test127</td><td>test@123</td><td>test@123</td><td>Disabled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">systaem.qa.tests.PimPageTest#add_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>saji</td><td>shan</td><td>ananth</td><td>test123</td><td>test@123</td><td>test@123</td><td>Enabled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">systaem.qa.tests.PimPageTest#add_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>mahi</td><td>raj</td><td>saji</td><td>test125</td><td>test@123</td><td>test@123</td><td>Enabled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">systaem.qa.tests.PimPageTest#add_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>ananth</td><td>nosi</td><td>raj</td><td>test126</td><td>test@123</td><td>test@123</td><td>Disabled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">systaem.qa.tests.PimPageTest#add_Data</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th></tr><tr class="param stripe"><td>shan</td><td>saji</td><td>shan</td><td>test124</td><td>test@123</td><td>test@123</td><td>Disabled</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

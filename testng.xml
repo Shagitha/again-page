@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="system.qa.ExtentReport.ExtentReportListener"/>
+    </listeners>
+    <test verbose="2" preserve-order="true"
+          name="/Users/mathiyaparanamthushanth/Downloads/Softwares-saji-automation/PageObjectModel">
+        <classes>
+           <class name="systaem.qa.tests.AdminTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+            <class name="systaem.qa.tests.DashboardTest">
+                <methods>
+                    <include name="clickAdmin"/>
+                    <include name="clickPim"/>
+                    <include name="chekQuickLaunch"/>
+                    <include name="check_secondQuote"/>
+                </methods>
+            </class>
+            <class name="systaem.qa.tests.LoginPageTest">
+                <methods>
+                    <include name="test"/>
+                </methods>
+            </class>
+           <class name="systaem.qa.tests.PimPageTest">
+                <methods>
+                    <include name="add_Data"/>
+                    <include name="verify_addedData"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
